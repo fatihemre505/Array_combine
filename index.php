@@ -38,6 +38,15 @@
                     echo "<p class='alert alert-success'>"."$key ". " $value "."</p>";
                 
                 }
+
+                echo "<hr>";
+
+                    echo "<ul class='list-group'>";
+                    foreach($arrCombine as $myKey => $myValue){
+                            echo "<li class='list-group-item bg-success text-white'>".$myKey." = ".$myValue."</li>";
+                    }
+                    echo "</ul>";
+
                         ?>
                     </div>
                 </div>
