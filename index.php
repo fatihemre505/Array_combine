@@ -35,7 +35,7 @@
 
                 foreach($arrCombine as $key => $value){
                     
-                    echo "<p class='alert alert-danger'>"."$key ". " $value "."</p>";
+                    echo "<p class='alert alert-success'>"."$key ". " $value "."</p>";
                 
                 }
                         ?>
